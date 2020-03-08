@@ -497,7 +497,7 @@ Begin VB.Form FsmsMain
       Width           =   1575
    End
    Begin VB.Label Main_Title 
-      Caption         =   "魚貨業買賣管理系統-FSMS-"
+      Caption         =   "魚貨業買賣管理系統-FSMS- V1.08"
       BeginProperty Font 
          Name            =   "新細明體"
          Size            =   15.75
@@ -511,7 +511,7 @@ Begin VB.Form FsmsMain
       Left            =   3480
       TabIndex        =   14
       Top             =   120
-      Width           =   4095
+      Width           =   5295
    End
 End
 Attribute VB_Name = "FsmsMain"

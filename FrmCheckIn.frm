@@ -406,7 +406,7 @@ Begin VB.Form FrmCheckIn
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Format          =   21430273
+         Format          =   21364737
          CurrentDate     =   36327
       End
       Begin MSComCtl2.DTPicker checkDate 
@@ -428,7 +428,7 @@ Begin VB.Form FrmCheckIn
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Format          =   21430273
+         Format          =   21364737
          CurrentDate     =   40345
       End
       Begin VB.Label Label5 
