@@ -406,7 +406,7 @@ Begin VB.Form FrmCheckIn
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Format          =   21364737
+         Format          =   21430273
          CurrentDate     =   36327
       End
       Begin MSComCtl2.DTPicker checkDate 
@@ -428,7 +428,7 @@ Begin VB.Form FrmCheckIn
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Format          =   21364737
+         Format          =   21430273
          CurrentDate     =   40345
       End
       Begin VB.Label Label5 
@@ -1214,6 +1214,9 @@ Private Sub PrintDeal()
       CurrList = ListPage
     Else
       CurrList = total_list Mod ListPage
+      If CurrList = 0 And total_list <> 0 Then
+        CurrList = ListPage
+      End If
     End If
     Text1.Text = Text1.Text & String(38, " ")
     If CheckMode = 0 Then
